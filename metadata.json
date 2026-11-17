@@ -1,0 +1,6 @@
+{
+  "name": "Rice Drought Stress Transcriptomics Hub",
+  "description": "Reproducible bioinformatics analysis of differentially expressed genes in Oryza sativa shoots under drought stress (NCBI GEO GSE115826 / GPL6864) using R, limma, and dual MSU/RAP-DB annotation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
