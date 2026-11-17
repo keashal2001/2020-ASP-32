@@ -1,0 +1,7 @@
+"Metric","Count"
+"Total biological probes",43734
+"Significant DEG probes",21208
+"Significant probes with RAP-DB IDs",20945
+"Significant probes with GenBank accessions",21208
+"Unique RAP-DB loci among significant probes",15133
+"Significant probes without RAP-DB IDs",263

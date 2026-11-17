@@ -1,0 +1,12 @@
+"FunctionalCategory","Total_DEG_Probes","Upregulated_Probes","Downregulated_Probes","Unique_RAP_Loci","Top_Upregulated_Description","Maximum_log10FC","Top_Downregulated_Description","Minimum_log10FC"
+"Other Biological Functions",16686,9348,7338,12213,"Small hydrophobic protein 2.",3.5613,"Plant disease resistance response protein family protein.",-2.9311
+"Signal Transduction and Kinases",1331,648,683,931,"Protein phosphatase 2C family protein.",2.2633,"Serine/threonine-specific kinase like protein.",-2.3254
+"Primary and Secondary Metabolism",769,320,449,469,"Short-chain dehydrogenase/reductase SDR family protein.",3.235,"Naringenin-chalcone synthase family protein.",-2.4469
+"Membrane Transport and Ion Homeostasis",669,335,334,438,"Sugar transporter protein.",2.495,"Amino acid/polyamine transporter II family protein.",-2.4046
+"Transcription Factors and Gene Regulation",571,294,277,370,"R2R3MYB-domain protein (Fragment).",2.5115,"DNA-binding protein (Homeodomain-leucine zipper transcription factor).",-2.281
+"ROS and Redox Scavenging",381,155,226,213,"Peroxiredoxin 6 (EC 1.11.1.-) (Antioxidant protein 2) (1-Cys peroxiredoxin) (1-Cys PRX) (Acidic calcium-independent phospholipase A2) (EC 3.1.1.-) (aiPLA2) (Non-selenium glutathione peroxidase) (EC 1.11.1.7) (NSGPx) (24 kDa protein) (Liver 2D page spot 40",2.6244,"Cupredoxin domain containing protein.",-2.8245
+"Osmotic Adjustment and LEA Proteins",224,114,110,151,"Late embryogenesis abundant protein repeat containing protein.",2.7407,"Proline-rich-like protein.",-2.7729
+"Chaperones and Heat Shock Response",209,152,57,117,"Heat shock protein DnaJ, N-terminal domain containing protein.",2.825,"20 kDa chaperonin, chloroplast precursor (Protein Cpn21) (Chloroplast protein Cpn10) (Chloroplast chaperonin 10) (Ch-CPN10) (Chaperonin 20).",-1.4124
+"Cell Wall Remodeling and Lignification",192,37,155,115,"Xyloglucan endotransglycosylase XET2 (Fragment).",2.0135,"Cellulose synthase family protein.",-2.4676
+"Photosynthesis and Chloroplast Function",89,15,74,47,"Red chlorophyll catabolite reductase (EC 1.-.-.-) (RCC reductase) (HvRCCR) (Fragment).",1.0377,"Protochlorophyllide reductase A, chloroplast precursor (EC 1.3.1.33) (PCR A) (NADPH-protochlorophyllide oxidoreductase A) (POR A).",-1.2708
+"Epigenetics and Chromatin Remodeling",87,29,58,69,"Histone deacetylase (Fragment).",1.9174,"Histone H2A.",-2.5188

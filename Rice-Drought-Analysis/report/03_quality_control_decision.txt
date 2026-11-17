@@ -1,0 +1,47 @@
+RICE DROUGHT STRESS ANALYSIS
+PART 3: QUALITY CONTROL DECISION REPORT
+========================================
+
+Dataset: GSE115826
+Platform: GPL6864
+Total samples: 8
+Control samples: 4
+Drought samples: 4
+Retained biological probes: 43734
+
+1. SAMPLE CORRELATION RESULTS
+Average control replicate correlation: 0.5394409
+Average drought replicate correlation: 0.9607586
+
+Control pairwise correlations ranged from 0.499 to 0.596.
+Drought pairwise correlations ranged from 0.951 to 0.972.
+
+2. EXPRESSION DISTRIBUTION
+Mean absolute expression:
+Control: 0.07614945
+Drought: 0.43749327
+
+3. EXPERIMENTAL DESIGN
+Cy5: Test sample.
+Cy3: Well-watered reference sample.
+Control arrays: Well-watered versus well-watered.
+Drought arrays: Drought versus well-watered.
+
+4. PROCESSING INFORMATION
+All samples used the same Agilent labeling protocol.
+All samples report Agilent Feature Extraction Software v11.5.1.1
+for background subtraction.
+
+5. QC DECISION
+All eight samples are retained.
+No sample was removed based on correlation alone.
+Control replicates show lower correlation and require cautious
+interpretation in downstream analysis.
+Drought replicates show high correlation consistency.
+
+6. LIMITATIONS
+Lower control correlations do not prove technical failure.
+Further analysis should account for the two-colour log-ratio
+nature of the microarray measurements.
+
+Part 3 QC decision documented.
