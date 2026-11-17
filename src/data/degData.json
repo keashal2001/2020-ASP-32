@@ -1,0 +1,1626 @@
+{
+  "overview": {
+    "geoAccession": "GSE115826",
+    "platform": "GPL6864",
+    "organism": "Oryza sativa (cv. Nipponbare)",
+    "tissue": "Shoot (2-week seedlings, 3-day treatment)",
+    "totalProbes": 43734,
+    "totalDEGs": 21208,
+    "upregulated": 11447,
+    "downregulated": 9761,
+    "pc1Variance": 91.02,
+    "pc2Variance": 2.52,
+    "significanceCriteria": "FDR < 0.05 and |log2FC| >= 1.0 (2-fold change)"
+  },
+  "qcStats": [
+    {
+      "sampleId": "GSM3190931",
+      "treatment": "Control",
+      "mean": -0.023425745137671,
+      "sd": 0.5064290462731,
+      "median": 0.0,
+      "iqr": 0.304288613491682
+    },
+    {
+      "sampleId": "GSM3190932",
+      "treatment": "Control",
+      "mean": -0.0149047492419294,
+      "sd": 0.484276325105654,
+      "median": 0.0,
+      "iqr": 0.315250976204811
+    },
+    {
+      "sampleId": "GSM3190933",
+      "treatment": "Control",
+      "mean": -0.0161110302206231,
+      "sd": 0.447993040705509,
+      "median": 0.0,
+      "iqr": 0.248812414307063
+    },
+    {
+      "sampleId": "GSM3190934",
+      "treatment": "Control",
+      "mean": -0.0232276234557361,
+      "sd": 0.395185438912278,
+      "median": 0.0,
+      "iqr": 0.173736839362609
+    },
+    {
+      "sampleId": "GSM3190935",
+      "treatment": "Drought",
+      "mean": 0.031709275882797,
+      "sd": 2.15023144984659,
+      "median": 0.0634488266123486,
+      "iqr": 2.19247254262566
+    },
+    {
+      "sampleId": "GSM3190936",
+      "treatment": "Drought",
+      "mean": 0.0113349343280605,
+      "sd": 2.10696923573421,
+      "median": 0.0827160095626953,
+      "iqr": 2.03301999407107
+    },
+    {
+      "sampleId": "GSM3190937",
+      "treatment": "Drought",
+      "mean": 0.0101779497418051,
+      "sd": 2.01646442942996,
+      "median": 0.0727502252780332,
+      "iqr": 1.97654721645798
+    },
+    {
+      "sampleId": "GSM3190938",
+      "treatment": "Drought",
+      "mean": 0.0145548672321781,
+      "sd": 2.00323789430871,
+      "median": 0.0739129001112438,
+      "iqr": 1.94664986360399
+    }
+  ],
+  "pathways": [
+    {
+      "name": "Other Biological Functions",
+      "total": 16686,
+      "up": 9348,
+      "down": 7338,
+      "topGene": "Small hydrophobic protein 2.",
+      "maxLogFC": 11.83,
+      "minLogFC": -9.74
+    },
+    {
+      "name": "Signal Transduction & Kinases",
+      "total": 1331,
+      "up": 648,
+      "down": 683,
+      "topGene": "Protein phosphatase 2C family protein.",
+      "maxLogFC": 7.52,
+      "minLogFC": -7.72
+    },
+    {
+      "name": "Primary & Secondary Metabolism",
+      "total": 769,
+      "up": 320,
+      "down": 449,
+      "topGene": "Short-chain dehydrogenase/reductase SDR family protein.",
+      "maxLogFC": 10.75,
+      "minLogFC": -8.13
+    },
+    {
+      "name": "Membrane Transport & Ion Homeostasis",
+      "total": 669,
+      "up": 335,
+      "down": 334,
+      "topGene": "Sugar transporter protein.",
+      "maxLogFC": 8.29,
+      "minLogFC": -7.99
+    },
+    {
+      "name": "Transcription Factors & Gene Regulation",
+      "total": 571,
+      "up": 294,
+      "down": 277,
+      "topGene": "R2R3MYB-domain protein (Fragment).",
+      "maxLogFC": 8.34,
+      "minLogFC": -7.58
+    },
+    {
+      "name": "Reactive Oxygen Species (ROS) & Redox Scavenging",
+      "total": 381,
+      "up": 155,
+      "down": 226,
+      "topGene": "Peroxiredoxin 6 (EC 1.11.1.-) (Antioxidant protein 2) (1-Cys peroxiredoxin) (1-Cys PRX) (Acidic calcium-independent phospholipase A2) (EC 3.1.1.-) (aiPLA2) (Non-selenium glutathione peroxidase) (EC 1.11.1.7) (NSGPx) (24 kDa protein) (Liver 2D page spot 40",
+      "maxLogFC": 8.72,
+      "minLogFC": -9.38
+    },
+    {
+      "name": "Osmotic Adjustment & LEA Proteins",
+      "total": 224,
+      "up": 114,
+      "down": 110,
+      "topGene": "Late embryogenesis abundant protein repeat containing protein.",
+      "maxLogFC": 9.1,
+      "minLogFC": -9.21
+    },
+    {
+      "name": "Chaperones & Heat Shock Response",
+      "total": 209,
+      "up": 152,
+      "down": 57,
+      "topGene": "Heat shock protein DnaJ, N-terminal domain containing protein.",
+      "maxLogFC": 9.38,
+      "minLogFC": -4.69
+    },
+    {
+      "name": "Cell Wall Remodeling & Lignification",
+      "total": 192,
+      "up": 37,
+      "down": 155,
+      "topGene": "Xyloglucan endotransglycosylase XET2 (Fragment).",
+      "maxLogFC": 6.69,
+      "minLogFC": -8.2
+    },
+    {
+      "name": "Photosynthesis & Chloroplast Function",
+      "total": 89,
+      "up": 15,
+      "down": 74,
+      "topGene": "Red chlorophyll catabolite reductase (EC 1.-.-.-) (RCC reductase) (HvRCCR) (Fragment).",
+      "maxLogFC": 3.45,
+      "minLogFC": -4.22
+    },
+    {
+      "name": "Epigenetics & Chromatin Remodeling",
+      "total": 87,
+      "up": 29,
+      "down": 58,
+      "topGene": "Histone deacetylase (Fragment).",
+      "maxLogFC": 6.37,
+      "minLogFC": -8.37
+    }
+  ],
+  "topUpregulated": [
+    {
+      "probeId": "41146",
+      "rapId": "Os09g0127700",
+      "msuId": "LOC_Os09g08060",
+      "logFC": 7.4,
+      "adjPVal": 3.67682553035352e-09,
+      "description": "Conserved hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "14199",
+      "rapId": "Os01g0136000",
+      "msuId": "LOC_Os01g04370",
+      "logFC": 6.83,
+      "adjPVal": 5.35532038677046e-09,
+      "description": "16.9 kDa class I heat shock protein.",
+      "pathway": "Chaperones & Heat Shock Response"
+    },
+    {
+      "probeId": "39577",
+      "rapId": "Os07g0529000",
+      "msuId": "LOC_Os07g34520",
+      "logFC": 8.68,
+      "adjPVal": 8.11993403553951e-09,
+      "description": "Isocitrate lyase (EC 4.1.3.1) (Isocitrase) (Isocitratase) (ICL).",
+      "pathway": "Primary & Secondary Metabolism"
+    },
+    {
+      "probeId": "38030",
+      "rapId": "Os10g0572300",
+      "msuId": "LOC_Os10g42110",
+      "logFC": 4.22,
+      "adjPVal": 8.11993403553951e-09,
+      "description": "Leucine-rich repeat, typical subtype containing protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "44040",
+      "rapId": "Os03g0277300",
+      "msuId": "LOC_Os03g16920",
+      "logFC": 6.55,
+      "adjPVal": 9.02842954654962e-09,
+      "description": "Heat shock protein 70.",
+      "pathway": "Chaperones & Heat Shock Response"
+    },
+    {
+      "probeId": "13497",
+      "rapId": "Os01g0303300",
+      "msuId": "LOC_Os01g20400",
+      "logFC": 5.95,
+      "adjPVal": 9.23227645475275e-09,
+      "description": "Mitochondrial import inner membrane translocase, subunit Tim17/22 family protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "13869",
+      "rapId": "Os09g0109600",
+      "msuId": "LOC_Os09g01096",
+      "logFC": 5.88,
+      "adjPVal": 9.78468593410972e-09,
+      "description": "Conserved hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "16977",
+      "rapId": "Os01g0226400",
+      "msuId": "LOC_Os01g12780",
+      "logFC": 5.85,
+      "adjPVal": 1.1339981960713e-08,
+      "description": "AAA ATPase, central region domain containing protein.",
+      "pathway": "Membrane Transport & Ion Homeostasis"
+    },
+    {
+      "probeId": "2432",
+      "rapId": "Os06g0651200",
+      "msuId": "LOC_Os06g44220",
+      "logFC": 5.88,
+      "adjPVal": 1.17192810397982e-08,
+      "description": "Hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "22640",
+      "rapId": "Os08g0398800",
+      "msuId": "LOC_Os08g30590",
+      "logFC": 4.28,
+      "adjPVal": 1.17192810397982e-08,
+      "description": "Conserved hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "4114",
+      "rapId": "Os03g0381500",
+      "msuId": "LOC_Os03g03815",
+      "logFC": 6.68,
+      "adjPVal": 1.23607386586566e-08,
+      "description": "Hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "18243",
+      "rapId": "Os02g0258800",
+      "msuId": "LOC_Os02g02588",
+      "logFC": 5.97,
+      "adjPVal": 1.23607386586566e-08,
+      "description": "Conserved hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "407",
+      "rapId": "Os07g0529600",
+      "msuId": "LOC_Os07g05296",
+      "logFC": 5.52,
+      "adjPVal": 1.23607386586566e-08,
+      "description": "Thiazole biosynthetic enzyme 1-1, chloroplast precursor.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "35034",
+      "rapId": "Os10g0565300",
+      "msuId": "LOC_Os10g05653",
+      "logFC": 3.32,
+      "adjPVal": 1.23607386586566e-08,
+      "description": "Conserved hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "17371",
+      "rapId": "Os03g0789800",
+      "msuId": "LOC_Os03g07898",
+      "logFC": 3.12,
+      "adjPVal": 1.23607386586566e-08,
+      "description": "Hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "9235",
+      "rapId": "Os11g0700900",
+      "msuId": "LOC_Os11g07009",
+      "logFC": 10.11,
+      "adjPVal": 1.26596867859435e-08,
+      "description": "Class III chitinase homologue (OsChib3H-b).",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "12845",
+      "rapId": "Os05g0496000",
+      "msuId": "LOC_Os05g04960",
+      "logFC": 4.51,
+      "adjPVal": 1.26596867859435e-08,
+      "description": "Conserved hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "4167",
+      "rapId": "Os03g0429800",
+      "msuId": "LOC_Os03g04298",
+      "logFC": 3.46,
+      "adjPVal": 1.35664125543355e-08,
+      "description": "Xanthine dehydrogenase 1 (EC 1.1.1.204).",
+      "pathway": "Primary & Secondary Metabolism"
+    },
+    {
+      "probeId": "13920",
+      "rapId": "Os06g0110200",
+      "msuId": "LOC_Os06g01102",
+      "logFC": 6.94,
+      "adjPVal": 1.3644575333263e-08,
+      "description": "Late embryogenesis abundant (LEA) group 1 family protein.",
+      "pathway": "Osmotic Adjustment & LEA Proteins"
+    },
+    {
+      "probeId": "25263",
+      "rapId": "Os04g0313300",
+      "msuId": "LOC_Os04g03133",
+      "logFC": 5.27,
+      "adjPVal": 1.3644575333263e-08,
+      "description": "Conserved hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "9091",
+      "rapId": "Os08g0442900",
+      "msuId": "LOC_Os08g04429",
+      "logFC": 10.11,
+      "adjPVal": 1.3656497752135e-08,
+      "description": "Conserved hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "27499",
+      "rapId": "Os05g0122700",
+      "msuId": "LOC_Os05g01227",
+      "logFC": 11.83,
+      "adjPVal": 1.4357575936985e-08,
+      "description": "Small hydrophobic protein 2.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "1115",
+      "rapId": "Os03g0187100",
+      "msuId": "LOC_Os03g01871",
+      "logFC": 3.08,
+      "adjPVal": 1.4357575936985e-08,
+      "description": "Hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "17879",
+      "rapId": "Os05g0373900",
+      "msuId": "LOC_Os05g03739",
+      "logFC": 7.01,
+      "adjPVal": 1.44713965995613e-08,
+      "description": "Eukaryotic peptide chain release factor subunit 1 (eRF1) (Eukaryotic release factor 1).",
+      "pathway": "Osmotic Adjustment & LEA Proteins"
+    },
+    {
+      "probeId": "42290",
+      "rapId": "Os03g0808900",
+      "msuId": "LOC_Os03g08089",
+      "logFC": 6.61,
+      "adjPVal": 1.44713965995613e-08,
+      "description": "Seed imbibition protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "40841",
+      "rapId": "Os12g0550800",
+      "msuId": "LOC_Os12g05508",
+      "logFC": 6.25,
+      "adjPVal": 1.44713965995613e-08,
+      "description": "Hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "41495",
+      "rapId": "Os06g0482500",
+      "msuId": "LOC_Os06g04825",
+      "logFC": 5.73,
+      "adjPVal": 1.44713965995613e-08,
+      "description": "(No Hit)",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "17159",
+      "rapId": "Os01g0950900",
+      "msuId": "LOC_Os01g09509",
+      "logFC": 4.9,
+      "adjPVal": 1.44713965995613e-08,
+      "description": "Protein of unknown function DUF221 domain containing protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "21144",
+      "rapId": "Os04g0231800",
+      "msuId": "LOC_Os04g02318",
+      "logFC": 4.87,
+      "adjPVal": 1.44713965995613e-08,
+      "description": "Protein of unknown function DUF1165 family protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "23685",
+      "rapId": "Os08g0398800",
+      "msuId": "LOC_Os08g30590",
+      "logFC": 4.31,
+      "adjPVal": 1.44713965995613e-08,
+      "description": "Conserved hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "9347",
+      "rapId": "Os01g0380800",
+      "msuId": "LOC_Os01g03808",
+      "logFC": 3.2,
+      "adjPVal": 1.44713965995613e-08,
+      "description": "Cyclin-like F-box domain containing protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "43370",
+      "rapId": "Os03g0324300",
+      "msuId": "LOC_Os03g03243",
+      "logFC": 3.62,
+      "adjPVal": 1.44972810627683e-08,
+      "description": "EIL3.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "5835",
+      "rapId": "Os07g0480900",
+      "msuId": "LOC_Os07g04809",
+      "logFC": 5.65,
+      "adjPVal": 1.45566314342446e-08,
+      "description": "Cysteine protease (Fragment).",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "4828",
+      "rapId": "Os05g0249300",
+      "msuId": "LOC_Os05g02493",
+      "logFC": 4.94,
+      "adjPVal": 1.45566314342446e-08,
+      "description": "(No Hit)",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "34454",
+      "rapId": "Os08g0273600",
+      "msuId": "LOC_Os08g02736",
+      "logFC": 4.4,
+      "adjPVal": 1.45566314342446e-08,
+      "description": "(No Hit)",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "21664",
+      "rapId": "Os02g0129700",
+      "msuId": "LOC_Os02g01297",
+      "logFC": 3.98,
+      "adjPVal": 1.45566314342446e-08,
+      "description": "Hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "24120",
+      "rapId": "Os02g0730000",
+      "msuId": "LOC_Os02g07300",
+      "logFC": 3.62,
+      "adjPVal": 1.45566314342446e-08,
+      "description": "Mitochondrial aldehyde dehydrogenase ALDH2a.",
+      "pathway": "Primary & Secondary Metabolism"
+    },
+    {
+      "probeId": "7172",
+      "rapId": "Os02g0753800",
+      "msuId": "LOC_Os02g07538",
+      "logFC": 4.56,
+      "adjPVal": 1.48917950824186e-08,
+      "description": "Annexin p34.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "43469",
+      "rapId": "Os11g0582300",
+      "msuId": "LOC_Os11g05823",
+      "logFC": 3.0,
+      "adjPVal": 1.50301480801971e-08,
+      "description": "Root hair defective 3 GTP-binding family protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "22741",
+      "rapId": "Os03g0561000",
+      "msuId": "LOC_Os03g05610",
+      "logFC": 4.56,
+      "adjPVal": 1.52639574167501e-08,
+      "description": "(No Hit)",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "10765",
+      "rapId": "Os04g0415800",
+      "msuId": "LOC_Os04g04158",
+      "logFC": 7.83,
+      "adjPVal": 1.52794996043908e-08,
+      "description": "Plant lipid transfer/seed storage/trypsin-alpha amylase inhibitor domain containing protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "20036",
+      "rapId": "Os07g0529600",
+      "msuId": "LOC_Os07g05296",
+      "logFC": 5.83,
+      "adjPVal": 1.55897568786033e-08,
+      "description": "Thiazole biosynthetic enzyme 1-1, chloroplast precursor.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "41311",
+      "rapId": "Os01g0244200",
+      "msuId": "LOC_Os01g02442",
+      "logFC": 4.1,
+      "adjPVal": 1.6094662070667e-08,
+      "description": "Eukaryotic protein of unknown function DUF889 family protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "3983",
+      "rapId": "Os03g0659300",
+      "msuId": "LOC_Os03g06593",
+      "logFC": 2.92,
+      "adjPVal": 1.63386676720367e-08,
+      "description": "Glyoxalase/bleomycin resistance protein/dioxygenase domain containing protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "26734",
+      "rapId": "Os06g0472200",
+      "msuId": "LOC_Os06g04722",
+      "logFC": 2.67,
+      "adjPVal": 1.63386676720367e-08,
+      "description": "Isoflavone reductase homolog Bet v 6.0101 (Fragment).",
+      "pathway": "Primary & Secondary Metabolism"
+    },
+    {
+      "probeId": "12911",
+      "rapId": "Os03g0826900",
+      "msuId": "LOC_Os03g08269",
+      "logFC": 5.95,
+      "adjPVal": 1.64114662110939e-08,
+      "description": "Conserved hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "39906",
+      "rapId": "Os07g0529600",
+      "msuId": "LOC_Os07g05296",
+      "logFC": 5.83,
+      "adjPVal": 1.67189410394261e-08,
+      "description": "Thiazole biosynthetic enzyme 1-1, chloroplast precursor.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "30569",
+      "rapId": "Os01g0136100",
+      "msuId": "LOC_Os01g01361",
+      "logFC": 5.98,
+      "adjPVal": 1.71552228261057e-08,
+      "description": "16.9 kDa class I heat shock protein.",
+      "pathway": "Chaperones & Heat Shock Response"
+    },
+    {
+      "probeId": "9902",
+      "rapId": "Os12g0600100",
+      "msuId": "LOC_Os12g06001",
+      "logFC": 2.83,
+      "adjPVal": 1.78757602792584e-08,
+      "description": "TPR-like domain containing protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "28757",
+      "rapId": "Os04g0191600",
+      "msuId": "LOC_Os04g01916",
+      "logFC": 2.93,
+      "adjPVal": 1.826598389713e-08,
+      "description": "F-box protein interaction domain containing protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "40075",
+      "rapId": "Os03g0109400",
+      "msuId": "LOC_Os03g01094",
+      "logFC": 5.12,
+      "adjPVal": 1.89343147685764e-08,
+      "description": "Homeobox domain containing protein.",
+      "pathway": "Transcription Factors & Gene Regulation"
+    },
+    {
+      "probeId": "29642",
+      "rapId": "Os08g0273600",
+      "msuId": "LOC_Os08g02736",
+      "logFC": 4.44,
+      "adjPVal": 1.93519209620351e-08,
+      "description": "(No Hit)",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "21675",
+      "rapId": "Os02g0482200",
+      "msuId": "LOC_Os02g04822",
+      "logFC": 3.54,
+      "adjPVal": 1.93519209620351e-08,
+      "description": "(No Hit)",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "19119",
+      "rapId": "Os07g0661600",
+      "msuId": "LOC_Os07g06616",
+      "logFC": 2.6,
+      "adjPVal": 1.93519209620351e-08,
+      "description": "MTD2.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "24734",
+      "rapId": "Os02g0644000",
+      "msuId": "LOC_Os02g06440",
+      "logFC": 4.55,
+      "adjPVal": 1.94501685806065e-08,
+      "description": "C13 endopeptidase NP1 (Fragment).",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "5871",
+      "rapId": "Os01g0183800",
+      "msuId": "LOC_Os01g01838",
+      "logFC": 3.12,
+      "adjPVal": 1.9640378920717e-08,
+      "description": "Cyclin-like F-box domain containing protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "896",
+      "rapId": "Os03g0429800",
+      "msuId": "LOC_Os03g04298",
+      "logFC": 3.76,
+      "adjPVal": 1.99866616388365e-08,
+      "description": "Xanthine dehydrogenase 1 (EC 1.1.1.204).",
+      "pathway": "Primary & Secondary Metabolism"
+    },
+    {
+      "probeId": "41769",
+      "rapId": "Os01g0188100",
+      "msuId": "LOC_Os01g01881",
+      "logFC": 3.11,
+      "adjPVal": 2.05256905461642e-08,
+      "description": "Isopenicillin N synthase family protein.",
+      "pathway": "Primary & Secondary Metabolism"
+    },
+    {
+      "probeId": "7636",
+      "rapId": "Os01g0702500",
+      "msuId": "LOC_Os01g07025",
+      "logFC": 7.24,
+      "adjPVal": 2.07168329115054e-08,
+      "description": "Dehydrin RAB25.",
+      "pathway": "Osmotic Adjustment & LEA Proteins"
+    },
+    {
+      "probeId": "28683",
+      "rapId": "Os03g0820500",
+      "msuId": "LOC_Os03g08205",
+      "logFC": 7.11,
+      "adjPVal": 2.07168329115054e-08,
+      "description": "Actin-binding, cofilin/tropomyosin type domain containing protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "29322",
+      "rapId": "Os03g0340500",
+      "msuId": "LOC_Os03g03405",
+      "logFC": 5.88,
+      "adjPVal": 2.07168329115054e-08,
+      "description": "Sucrose synthase.",
+      "pathway": "Primary & Secondary Metabolism"
+    },
+    {
+      "probeId": "17291",
+      "rapId": "Os04g0436400",
+      "msuId": "LOC_Os04g04364",
+      "logFC": 3.98,
+      "adjPVal": 2.07168329115054e-08,
+      "description": "Hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "17693",
+      "rapId": "Os07g0588600",
+      "msuId": "LOC_Os07g05886",
+      "logFC": 5.68,
+      "adjPVal": 2.16881987781788e-08,
+      "description": "Zn-finger, C2H2 type domain containing protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "15941",
+      "rapId": "Os06g0246500",
+      "msuId": "LOC_Os06g02465",
+      "logFC": 6.66,
+      "adjPVal": 2.18113240204039e-08,
+      "description": "Pyruvate dehydrogenase E1 alpha subunit (EC 1.2.4.1).",
+      "pathway": "Primary & Secondary Metabolism"
+    },
+    {
+      "probeId": "1667",
+      "rapId": "Os03g0322900",
+      "msuId": "LOC_Os03g03229",
+      "logFC": 6.31,
+      "adjPVal": 2.18113240204039e-08,
+      "description": "Late embryogenesis abundant protein repeat containing protein.",
+      "pathway": "Osmotic Adjustment & LEA Proteins"
+    },
+    {
+      "probeId": "26729",
+      "rapId": "Os06g0521600",
+      "msuId": "LOC_Os06g05216",
+      "logFC": 2.72,
+      "adjPVal": 2.18553717581875e-08,
+      "description": "Nucleotide sequence for mutator transposable element MuA2.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "13816",
+      "rapId": "Os03g0244200",
+      "msuId": "LOC_Os03g02442",
+      "logFC": 5.94,
+      "adjPVal": 2.21746153953125e-08,
+      "description": "Thaumatin-like protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "14005",
+      "rapId": "Os05g0569500",
+      "msuId": "LOC_Os05g05695",
+      "logFC": 7.42,
+      "adjPVal": 2.22634385071843e-08,
+      "description": "Protein of unknown function DUF1264 family protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "18090",
+      "rapId": "Os02g0538900",
+      "msuId": "LOC_Os02g05389",
+      "logFC": 2.65,
+      "adjPVal": 2.22634385071843e-08,
+      "description": "Eukaryotic transcription factor, DNA-binding domain containing protein.",
+      "pathway": "Transcription Factors & Gene Regulation"
+    },
+    {
+      "probeId": "6033",
+      "rapId": "Os02g0257200",
+      "msuId": "LOC_Os02g02572",
+      "logFC": 6.8,
+      "adjPVal": 2.34309034419284e-08,
+      "description": "Conserved hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "7736",
+      "rapId": "Os06g0472200",
+      "msuId": "LOC_Os06g04722",
+      "logFC": 2.51,
+      "adjPVal": 2.34649152674886e-08,
+      "description": "Isoflavone reductase homolog Bet v 6.0101 (Fragment).",
+      "pathway": "Primary & Secondary Metabolism"
+    },
+    {
+      "probeId": "10325",
+      "rapId": "Os07g0188700",
+      "msuId": "LOC_Os07g01887",
+      "logFC": 4.09,
+      "adjPVal": 2.34751491230961e-08,
+      "description": "Exostosin-like family protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "6163",
+      "rapId": "Os11g0619700",
+      "msuId": "LOC_Os11g06197",
+      "logFC": 3.03,
+      "adjPVal": 2.34751491230961e-08,
+      "description": "(No Hit)",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "5976",
+      "rapId": "Os06g0491800",
+      "msuId": "LOC_Os06g04918",
+      "logFC": 2.89,
+      "adjPVal": 2.34751491230961e-08,
+      "description": "Transposable element Ac.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "14108",
+      "rapId": "Os05g0407500",
+      "msuId": "LOC_Os05g04075",
+      "logFC": 2.52,
+      "adjPVal": 2.34751491230961e-08,
+      "description": "Esterase/lipase/thioesterase domain containing protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "22329",
+      "rapId": "Os03g0794900",
+      "msuId": "LOC_Os03g07949",
+      "logFC": 3.0,
+      "adjPVal": 2.35974652555637e-08,
+      "description": "Conserved hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "23322",
+      "rapId": "Os05g0550600",
+      "msuId": "LOC_Os05g05506",
+      "logFC": 7.84,
+      "adjPVal": 2.37549097418563e-08,
+      "description": "Nonspecific lipid transfer protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "40070",
+      "rapId": "Os06g0103300",
+      "msuId": "LOC_Os06g01033",
+      "logFC": 4.33,
+      "adjPVal": 2.37549097418563e-08,
+      "description": "Homogentisate 1,2-dioxygenase (EC 1.13.11.5) (Homogentisicase) (Homogentisate oxygenase) (Homogentisic acid oxidase).",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "35913",
+      "rapId": "Os07g0269000",
+      "msuId": "LOC_Os07g02690",
+      "logFC": 4.12,
+      "adjPVal": 2.37549097418563e-08,
+      "description": "(No Hit)",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "13878",
+      "rapId": "Os06g0129900",
+      "msuId": "LOC_Os06g01299",
+      "logFC": 3.26,
+      "adjPVal": 2.37549097418563e-08,
+      "description": "E-class P450, group I family protein.",
+      "pathway": "Other Biological Functions"
+    }
+  ],
+  "topDownregulated": [
+    {
+      "probeId": "44582",
+      "rapId": "Os02g0538700",
+      "msuId": "LOC_Os02g44360",
+      "logFC": -7.71,
+      "adjPVal": 2.42532254422333e-09,
+      "description": "Harpin-induced 1 domain containing protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "11202",
+      "rapId": "Os09g0248100",
+      "msuId": "LOC_Os09g14320",
+      "logFC": -7.46,
+      "adjPVal": 3.67682553035352e-09,
+      "description": "Beta-Ig-H3/fasciclin domain containing protein.",
+      "pathway": "Cell Wall Remodeling & Lignification"
+    },
+    {
+      "probeId": "35235",
+      "rapId": "Os07g0257200",
+      "msuId": "LOC_Os07g15460",
+      "logFC": -6.53,
+      "adjPVal": 3.67682553035352e-09,
+      "description": "OsNramp1 (Integral membrane protein).",
+      "pathway": "Membrane Transport & Ion Homeostasis"
+    },
+    {
+      "probeId": "41300",
+      "rapId": "Os09g0538500",
+      "msuId": "LOC_Os09g34270",
+      "logFC": -8.93,
+      "adjPVal": 6.19385660927576e-09,
+      "description": "Male sterility MS5.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "19615",
+      "rapId": "Os02g0538700",
+      "msuId": "LOC_Os02g44360",
+      "logFC": -8.2,
+      "adjPVal": 6.19385660927576e-09,
+      "description": "Harpin-induced 1 domain containing protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "44259",
+      "rapId": "Os05g0458500",
+      "msuId": "LOC_Os05g38360",
+      "logFC": -8.15,
+      "adjPVal": 6.19385660927576e-09,
+      "description": "Laccase (EC 1.10.3.2).",
+      "pathway": "Cell Wall Remodeling & Lignification"
+    },
+    {
+      "probeId": "41751",
+      "rapId": "Os11g0150400",
+      "msuId": "LOC_Os11g05290",
+      "logFC": -6.44,
+      "adjPVal": 6.19385660927576e-09,
+      "description": "Conserved hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "39824",
+      "rapId": "Os07g0600200",
+      "msuId": "LOC_Os07g39870",
+      "logFC": -6.2,
+      "adjPVal": 6.19385660927576e-09,
+      "description": "Conserved hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "14357",
+      "rapId": "Os04g0672300",
+      "msuId": "LOC_Os04g57380",
+      "logFC": -3.86,
+      "adjPVal": 6.19385660927576e-09,
+      "description": "Conserved hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "44657",
+      "rapId": "Os10g0104900",
+      "msuId": "LOC_Os10g01840",
+      "logFC": -6.5,
+      "adjPVal": 6.50978214624856e-09,
+      "description": "Chromomethylase 3.",
+      "pathway": "Epigenetics & Chromatin Remodeling"
+    },
+    {
+      "probeId": "7832",
+      "rapId": "Os09g0248100",
+      "msuId": "LOC_Os09g14320",
+      "logFC": -7.15,
+      "adjPVal": 7.61450089751156e-09,
+      "description": "Beta-Ig-H3/fasciclin domain containing protein.",
+      "pathway": "Cell Wall Remodeling & Lignification"
+    },
+    {
+      "probeId": "30904",
+      "rapId": "Os11g0150400",
+      "msuId": "LOC_Os11g05290",
+      "logFC": -6.68,
+      "adjPVal": 7.61450089751156e-09,
+      "description": "Conserved hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "42298",
+      "rapId": "Os10g0450000",
+      "msuId": "LOC_Os10g04500",
+      "logFC": -6.16,
+      "adjPVal": 7.61450089751156e-09,
+      "description": "Plant protein of unknown function family protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "6112",
+      "rapId": "Os05g0556400",
+      "msuId": "LOC_Os05g05564",
+      "logFC": -5.76,
+      "adjPVal": 7.61450089751156e-09,
+      "description": "DOMON domain containing protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "20570",
+      "rapId": "Os04g0419600",
+      "msuId": "LOC_Os04g04196",
+      "logFC": -4.89,
+      "adjPVal": 7.61450089751156e-09,
+      "description": "Histone H3.",
+      "pathway": "Epigenetics & Chromatin Remodeling"
+    },
+    {
+      "probeId": "35231",
+      "rapId": "Os11g0503900",
+      "msuId": "LOC_Os11g05039",
+      "logFC": -4.82,
+      "adjPVal": 7.85049025482506e-09,
+      "description": "Sulfotransferase family protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "3971",
+      "rapId": "Os03g0339400",
+      "msuId": "LOC_Os03g03394",
+      "logFC": -8.99,
+      "adjPVal": 8.11993403553951e-09,
+      "description": "Haem peroxidase, plant/fungal/bacterial family protein.",
+      "pathway": "Reactive Oxygen Species (ROS) & Redox Scavenging"
+    },
+    {
+      "probeId": "11274",
+      "rapId": "Os10g0577400",
+      "msuId": "LOC_Os10g05774",
+      "logFC": -7.36,
+      "adjPVal": 8.11993403553951e-09,
+      "description": "Conserved hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "5526",
+      "rapId": "Os03g0339700",
+      "msuId": "LOC_Os03g03397",
+      "logFC": -5.72,
+      "adjPVal": 8.11993403553951e-09,
+      "description": "Plant protein of unknown function DUF827 family protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "5058",
+      "rapId": "Os11g0693800",
+      "msuId": "LOC_Os11g06938",
+      "logFC": -3.79,
+      "adjPVal": 8.11993403553951e-09,
+      "description": "Conserved hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "25232",
+      "rapId": "Os05g0391200",
+      "msuId": "LOC_Os05g03912",
+      "logFC": -3.2,
+      "adjPVal": 8.11993403553951e-09,
+      "description": "Conserved hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "34996",
+      "rapId": "Os06g0126500",
+      "msuId": "LOC_Os06g01265",
+      "logFC": -5.62,
+      "adjPVal": 8.70456126188288e-09,
+      "description": "Apoptosis regulator Bcl-2 protein, BAG domain containing protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "5000",
+      "rapId": "Os06g0234200",
+      "msuId": "LOC_Os06g02342",
+      "logFC": -4.42,
+      "adjPVal": 8.70456126188288e-09,
+      "description": "RAC-ROP-like G-protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "25811",
+      "rapId": "Os01g0226300",
+      "msuId": "LOC_Os01g02263",
+      "logFC": -5.66,
+      "adjPVal": 9.0330259392415e-09,
+      "description": "Reticulon family protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "31149",
+      "rapId": "Os04g0569300",
+      "msuId": "LOC_Os04g05693",
+      "logFC": -5.83,
+      "adjPVal": 9.23227645475275e-09,
+      "description": "Membrane protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "5190",
+      "rapId": "Os02g0715300",
+      "msuId": "LOC_Os02g07153",
+      "logFC": -5.12,
+      "adjPVal": 9.78468593410972e-09,
+      "description": "Conserved hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "673",
+      "rapId": "Os05g0108600",
+      "msuId": "LOC_Os05g01086",
+      "logFC": -3.73,
+      "adjPVal": 9.78468593410972e-09,
+      "description": "Cysteine proteinase.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "7495",
+      "rapId": "Os07g0604800",
+      "msuId": "LOC_Os07g06048",
+      "logFC": -5.11,
+      "adjPVal": 1.1339981960713e-08,
+      "description": "Alpha-1,4-glucan-protein synthase [UDP-forming] 1 (EC 2.4.1.112) (UDP- glucose:protein transglucosylase 1) (UPTG 1).",
+      "pathway": "Primary & Secondary Metabolism"
+    },
+    {
+      "probeId": "4552",
+      "rapId": "Os04g0640700",
+      "msuId": "LOC_Os04g06407",
+      "logFC": -6.95,
+      "adjPVal": 1.17192810397982e-08,
+      "description": "Alpha-L-arabinofuranosidase/beta-D-xylosidase isoenzyme ARA-I.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "41797",
+      "rapId": "Os10g0457400",
+      "msuId": "LOC_Os10g04574",
+      "logFC": -6.33,
+      "adjPVal": 1.17192810397982e-08,
+      "description": "Conserved hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "34787",
+      "rapId": "Os07g0645000",
+      "msuId": "LOC_Os07g06450",
+      "logFC": -6.32,
+      "adjPVal": 1.17192810397982e-08,
+      "description": "Allergen V5/Tpx-1 related family protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "9231",
+      "rapId": "Os10g0512400",
+      "msuId": "LOC_Os10g05124",
+      "logFC": -5.55,
+      "adjPVal": 1.17192810397982e-08,
+      "description": "Cytochrome P450 family protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "14418",
+      "rapId": "Os04g0629700",
+      "msuId": "LOC_Os04g06297",
+      "logFC": -5.32,
+      "adjPVal": 1.17192810397982e-08,
+      "description": "Kinesin, motor region domain containing protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "10951",
+      "rapId": "Os10g0108700",
+      "msuId": "LOC_Os10g01087",
+      "logFC": -5.16,
+      "adjPVal": 1.17192810397982e-08,
+      "description": "Transferase family protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "31871",
+      "rapId": "Os03g0401300",
+      "msuId": "LOC_Os03g04013",
+      "logFC": -6.57,
+      "adjPVal": 1.23607386586566e-08,
+      "description": "Sucrose synthase 2 (EC 2.4.1.13) (Sucrose-UDP glucosyltransferase 2).",
+      "pathway": "Primary & Secondary Metabolism"
+    },
+    {
+      "probeId": "5783",
+      "rapId": "Os05g0102000",
+      "msuId": "LOC_Os05g01020",
+      "logFC": -6.33,
+      "adjPVal": 1.23607386586566e-08,
+      "description": "SAM dependent carboxyl methyltransferase family protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "4337",
+      "rapId": "Os06g0218600",
+      "msuId": "LOC_Os06g02186",
+      "logFC": -5.34,
+      "adjPVal": 1.23607386586566e-08,
+      "description": "Plastocyanin-like domain containing protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "33537",
+      "rapId": "Os04g0447600",
+      "msuId": "LOC_Os04g04476",
+      "logFC": -5.2,
+      "adjPVal": 1.23607386586566e-08,
+      "description": "NADPH-dependent codeinone reductase (EC 1.1.1.247).",
+      "pathway": "Primary & Secondary Metabolism"
+    },
+    {
+      "probeId": "2888",
+      "rapId": "Os01g0110200",
+      "msuId": "LOC_Os01g01102",
+      "logFC": -5.01,
+      "adjPVal": 1.23607386586566e-08,
+      "description": "Conserved hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "4282",
+      "rapId": "Os03g0718100",
+      "msuId": "LOC_Os03g07181",
+      "logFC": -4.42,
+      "adjPVal": 1.23607386586566e-08,
+      "description": "Actin 1.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "29615",
+      "rapId": "Os04g0613700",
+      "msuId": "LOC_Os04g06137",
+      "logFC": -4.29,
+      "adjPVal": 1.23607386586566e-08,
+      "description": "UTP--glucose-1-phosphate uridylyltransferase family protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "209",
+      "rapId": "Os06g0109300",
+      "msuId": "LOC_Os06g01093",
+      "logFC": -8.57,
+      "adjPVal": 1.26596867859435e-08,
+      "description": "Protein of unknown function DUF6 domain containing protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "34994",
+      "rapId": "Os02g0814200",
+      "msuId": "LOC_Os02g08142",
+      "logFC": -7.66,
+      "adjPVal": 1.26596867859435e-08,
+      "description": "CER1-like gene protein (Fragment).",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "31979",
+      "rapId": "Os08g0512600",
+      "msuId": "LOC_Os08g05126",
+      "logFC": -7.07,
+      "adjPVal": 1.26596867859435e-08,
+      "description": "Protein cdc2 kinase.",
+      "pathway": "Signal Transduction & Kinases"
+    },
+    {
+      "probeId": "32841",
+      "rapId": "Os01g0666700",
+      "msuId": "LOC_Os01g06667",
+      "logFC": -6.27,
+      "adjPVal": 1.26596867859435e-08,
+      "description": "Cytochrome b561 / ferric reductase transmembrane domain containing protein.",
+      "pathway": "Primary & Secondary Metabolism"
+    },
+    {
+      "probeId": "37435",
+      "rapId": "Os05g0176100",
+      "msuId": "LOC_Os05g01761",
+      "logFC": -6.12,
+      "adjPVal": 1.26596867859435e-08,
+      "description": "Cellulose synthase-1.",
+      "pathway": "Cell Wall Remodeling & Lignification"
+    },
+    {
+      "probeId": "14752",
+      "rapId": "Os08g0551000",
+      "msuId": "LOC_Os08g05510",
+      "logFC": -5.5,
+      "adjPVal": 1.26596867859435e-08,
+      "description": "(No Hit)",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "41777",
+      "rapId": "Os04g0629700",
+      "msuId": "LOC_Os04g06297",
+      "logFC": -5.23,
+      "adjPVal": 1.26596867859435e-08,
+      "description": "Kinesin, motor region domain containing protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "12410",
+      "rapId": "Os01g0750300",
+      "msuId": "LOC_Os01g07503",
+      "logFC": -4.41,
+      "adjPVal": 1.26596867859435e-08,
+      "description": "Cellulose synthase CesA-2 (Fragment).",
+      "pathway": "Cell Wall Remodeling & Lignification"
+    },
+    {
+      "probeId": "44651",
+      "rapId": "Os03g0852400",
+      "msuId": "LOC_Os03g08524",
+      "logFC": -4.27,
+      "adjPVal": 1.26596867859435e-08,
+      "description": "Conserved hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "8973",
+      "rapId": "Os08g0459300",
+      "msuId": "LOC_Os08g04593",
+      "logFC": -7.56,
+      "adjPVal": 1.35664125543355e-08,
+      "description": "Allergen V5/Tpx-1 related family protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "15117",
+      "rapId": "Os10g0467800",
+      "msuId": "LOC_Os10g04678",
+      "logFC": -5.69,
+      "adjPVal": 1.35664125543355e-08,
+      "description": "Cellulose synthase.",
+      "pathway": "Cell Wall Remodeling & Lignification"
+    },
+    {
+      "probeId": "22990",
+      "rapId": "Os01g0243700",
+      "msuId": "LOC_Os01g02437",
+      "logFC": -4.78,
+      "adjPVal": 1.35664125543355e-08,
+      "description": "Beta-1,3-glucanase-like protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "8919",
+      "rapId": "Os04g0431700",
+      "msuId": "LOC_Os04g04317",
+      "logFC": -3.8,
+      "adjPVal": 1.35664125543355e-08,
+      "description": "(No Hit)",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "11774",
+      "rapId": "Os09g0494200",
+      "msuId": "LOC_Os09g04942",
+      "logFC": -5.67,
+      "adjPVal": 1.3644575333263e-08,
+      "description": "Glycoside hydrolase, family 19 protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "14421",
+      "rapId": "Os03g0401300",
+      "msuId": "LOC_Os03g04013",
+      "logFC": -5.48,
+      "adjPVal": 1.3644575333263e-08,
+      "description": "Sucrose synthase 2 (EC 2.4.1.13) (Sucrose-UDP glucosyltransferase 2).",
+      "pathway": "Primary & Secondary Metabolism"
+    },
+    {
+      "probeId": "40002",
+      "rapId": "Os10g0457100",
+      "msuId": "LOC_Os10g04571",
+      "logFC": -5.15,
+      "adjPVal": 1.3644575333263e-08,
+      "description": "Pectate lyase/Amb allergen family protein.",
+      "pathway": "Primary & Secondary Metabolism"
+    },
+    {
+      "probeId": "14196",
+      "rapId": "Os08g0266700",
+      "msuId": "LOC_Os08g02667",
+      "logFC": -5.05,
+      "adjPVal": 1.3644575333263e-08,
+      "description": "Rad21/Rec8 like protein, N-terminal domain containing protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "39081",
+      "rapId": "Os07g0572400",
+      "msuId": "LOC_Os07g05724",
+      "logFC": -4.84,
+      "adjPVal": 1.3644575333263e-08,
+      "description": "Conserved hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "2281",
+      "rapId": "Os05g0476000",
+      "msuId": "LOC_Os05g04760",
+      "logFC": -4.87,
+      "adjPVal": 1.38890111843148e-08,
+      "description": "Hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "20008",
+      "rapId": "Os12g0443500",
+      "msuId": "LOC_Os12g04435",
+      "logFC": -5.41,
+      "adjPVal": 1.4357575936985e-08,
+      "description": "UDP-glucose 6-dehydrogenase (EC 1.1.1.22) (UDP-Glc dehydrogenase) (UDP-GlcDH) (UDPGDH).",
+      "pathway": "Primary & Secondary Metabolism"
+    },
+    {
+      "probeId": "25758",
+      "rapId": "Os03g0214100",
+      "msuId": "LOC_Os03g02141",
+      "logFC": -7.96,
+      "adjPVal": 1.44713965995613e-08,
+      "description": "Replication protein A1.",
+      "pathway": "Membrane Transport & Ion Homeostasis"
+    },
+    {
+      "probeId": "13628",
+      "rapId": "Os01g0805600",
+      "msuId": "LOC_Os01g08056",
+      "logFC": -7.64,
+      "adjPVal": 1.44713965995613e-08,
+      "description": "Cyclin IaZm (Fragment).",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "16579",
+      "rapId": "Os01g0756900",
+      "msuId": "LOC_Os01g07569",
+      "logFC": -7.57,
+      "adjPVal": 1.44713965995613e-08,
+      "description": "Conserved hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "18865",
+      "rapId": "Os01g0106300",
+      "msuId": "LOC_Os01g01063",
+      "logFC": -7.26,
+      "adjPVal": 1.44713965995613e-08,
+      "description": "Isoflavone reductase homolog IRL (EC 1.3.1.-).",
+      "pathway": "Primary & Secondary Metabolism"
+    },
+    {
+      "probeId": "9079",
+      "rapId": "Os01g0159200",
+      "msuId": "LOC_Os01g01592",
+      "logFC": -6.53,
+      "adjPVal": 1.44713965995613e-08,
+      "description": "Arabinogalactan protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "31330",
+      "rapId": "Os09g0494200",
+      "msuId": "LOC_Os09g04942",
+      "logFC": -5.72,
+      "adjPVal": 1.44713965995613e-08,
+      "description": "Glycoside hydrolase, family 19 protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "15084",
+      "rapId": "Os04g0483500",
+      "msuId": "LOC_Os04g04835",
+      "logFC": -5.7,
+      "adjPVal": 1.44713965995613e-08,
+      "description": "B-keto acyl reductase.",
+      "pathway": "Primary & Secondary Metabolism"
+    },
+    {
+      "probeId": "2987",
+      "rapId": "Os12g0590500",
+      "msuId": "LOC_Os12g05905",
+      "logFC": -5.63,
+      "adjPVal": 1.44713965995613e-08,
+      "description": "Kinesin-like polypeptides 8 (Fragment).",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "29100",
+      "rapId": "Os12g0443500",
+      "msuId": "LOC_Os12g04435",
+      "logFC": -5.38,
+      "adjPVal": 1.44713965995613e-08,
+      "description": "UDP-glucose 6-dehydrogenase (EC 1.1.1.22) (UDP-Glc dehydrogenase) (UDP-GlcDH) (UDPGDH).",
+      "pathway": "Primary & Secondary Metabolism"
+    },
+    {
+      "probeId": "2344",
+      "rapId": "Os01g0294700",
+      "msuId": "LOC_Os01g02947",
+      "logFC": -5.3,
+      "adjPVal": 1.44713965995613e-08,
+      "description": "Haem peroxidase, plant/fungal/bacterial family protein.",
+      "pathway": "Reactive Oxygen Species (ROS) & Redox Scavenging"
+    },
+    {
+      "probeId": "36324",
+      "rapId": "Os05g0135500",
+      "msuId": "LOC_Os05g01355",
+      "logFC": -5.29,
+      "adjPVal": 1.44713965995613e-08,
+      "description": "Haem peroxidase, plant/fungal/bacterial family protein.",
+      "pathway": "Reactive Oxygen Species (ROS) & Redox Scavenging"
+    },
+    {
+      "probeId": "14699",
+      "rapId": "Os01g0926700",
+      "msuId": "LOC_Os01g09267",
+      "logFC": -5.22,
+      "adjPVal": 1.44713965995613e-08,
+      "description": "Pectin-glucuronyltransferase.",
+      "pathway": "Cell Wall Remodeling & Lignification"
+    },
+    {
+      "probeId": "25409",
+      "rapId": "Os06g0624700",
+      "msuId": "LOC_Os06g06247",
+      "logFC": -4.85,
+      "adjPVal": 1.44713965995613e-08,
+      "description": "Conserved hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "4560",
+      "rapId": "Os04g0563700",
+      "msuId": "LOC_Os04g05637",
+      "logFC": -4.64,
+      "adjPVal": 1.44713965995613e-08,
+      "description": "Cyclin.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "10853",
+      "rapId": "Os04g0455600",
+      "msuId": "LOC_Os04g04556",
+      "logFC": -4.59,
+      "adjPVal": 1.44713965995613e-08,
+      "description": "Conserved hypothetical protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "10086",
+      "rapId": "Os05g0153000",
+      "msuId": "LOC_Os05g01530",
+      "logFC": -4.59,
+      "adjPVal": 1.44713965995613e-08,
+      "description": "Gelsolin family protein.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "38485",
+      "rapId": "Os04g0563700",
+      "msuId": "LOC_Os04g05637",
+      "logFC": -4.55,
+      "adjPVal": 1.44713965995613e-08,
+      "description": "Cyclin.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "39178",
+      "rapId": "Os03g0718100",
+      "msuId": "LOC_Os03g07181",
+      "logFC": -4.46,
+      "adjPVal": 1.44713965995613e-08,
+      "description": "Actin 1.",
+      "pathway": "Other Biological Functions"
+    },
+    {
+      "probeId": "30572",
+      "rapId": "Os03g0718100",
+      "msuId": "LOC_Os03g07181",
+      "logFC": -4.41,
+      "adjPVal": 1.44713965995613e-08,
+      "description": "Actin 1.",
+      "pathway": "Other Biological Functions"
+    }
+  ]
+}
